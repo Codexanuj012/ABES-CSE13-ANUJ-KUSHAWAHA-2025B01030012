@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid div{
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding: 20px,0px;
+            border-radius: 6px;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            padding: 20px;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: 5em 100px 30%;
+            width: 800px;
+            border: 2px solid green;
+            gap: 10px;
+
+        }
+        /* .grid div{
+            background-color: pink;
+            color: yellow;
+            text-align: center;
+            padding: 20px 0;
+            border-radius: 6px;
+        } */
+    </style>
+</head>
+<body>
+    <h2>
+        CSS grid coloman Units : em,px,%
+    </h2>
+    <div class="grid">
+        <div>5em Column</div>
+        <div>100px Column</div>
+        <div>30% column</div>
+    </div>
+</body>
+
+</html>
